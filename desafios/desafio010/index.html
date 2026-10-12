@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Austronauta</title>
+</head>
+<style>
+
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+
+    body{
+        min-height: 100vh; /* Define a altura minima e o 100vh representa 100% da altura da área visível no navegador */
+
+        background-image: url('imagens/espaco.jpg'); /* Define a imagem utlizado no fundo */
+
+        background-size: cover; /* Faz a imagem preencher toda a área do elemento */
+
+        background-position: center; /* Posiciona o centro da imagem no centro da área de fundo horizontal e vertical */
+
+        background-repeat: no-repeat; /* Impede que a imagem seja repetida caso não cubra toda a área. */
+
+
+        display: flex; /* Ativa o Flexbox, transforma o body em um contêiner flexível. Os elementos filhos diretos dele passam a poder ser organizados usando as propriedades do Flexbox. */
+
+        justify-content: center; /* Centraliza os elementos no eixo principal do Flexbox. (Centraliza a imagem horizontalmente.)*/
+
+        align-items: center; /* Centraliza os elementos no eixo transversal. Na direção vertical. */
+    }
+
+
+</style>
+<body>
+    <div>
+        <img src="imagens/astronauta.png" alt="astronauta centro">
+    </div>
+</body>
+</html>
